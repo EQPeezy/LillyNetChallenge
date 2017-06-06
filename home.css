@@ -1,0 +1,104 @@
+background
+{
+    color: grey;
+}
+
+.symbols .glyphicon
+{
+    font-size: 60px;
+    text-shadow: 3px 3px 5px #888888
+}
+
+.glyphicon-usd
+{
+    color: green;
+}
+.carousel-inner .item img
+{
+    margin: 0 auto; 
+}
+
+.footer
+{
+    background: #efefef;
+    
+    right:0;
+    bottom: fixed;
+    left: 0;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+h1
+{
+    padding-top: 50px;
+}
+
+.carousel-indicators
+{
+    padding-bottom: 50px;
+}
+
+body
+{
+    background-color: ;
+}ee
+
+.symbols
+{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.footer
+{
+    font-size: 11px;
+    
+}
+
+.sign-out
+{
+    color: white;
+    background:  #E74C3C;
+}
+.sign-out:hover
+{
+    background: #E74C3C;
+}
+
+.socialMedia .btn
+{
+    font-size: 30px;
+}
+
+
+.carousel-caption
+{
+    position:absolute;
+    background: rgba(255,255,255, .7);
+    text-shadow: 1px 1px 2px black;
+    color: white;
+}
+
+.mainButton
+{
+    height: 250px;
+    width: 250px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 20px #888888;
+}
+
+.mainButton:hover
+{
+    background-color: rgba(118,151,226, .5);
+    border-width: medium;
+    box-shadow: 20px 20px 20px #888888;
+}
+
+body
+{
+    background-image: url("images/background1.jpg")
+}
