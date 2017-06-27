@@ -46,7 +46,7 @@
                     <label><input type="checkbox" value=""> Remove Stock Info <br><br> </label>
                     <label><input type="checkbox" value=""> Add News Widget <br><br> </label>
                     <label><input type="checkbox" value=""> Add "Enter My Time" Widget <br><br> </label>
-                    <button type="button" class="btn btn-primary" onclick="backgroundChange()">Change Background</button>
+                    <button type="button" class="btn btn-primary" onclick="backgroundChange()">Change Background </button>
                 </ul>
             </div>
             <div class="modal-footer">
@@ -110,36 +110,41 @@
                 <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item">
-                            <a href="https://www.lilly.com/q1-2017-earnings-on-track-to-sustain-flow-of-innovation" target="_blank"    title="Please note: If you click this link, you will leave the myLilly site.">
+                            <a href="https://www.lilly.com/q1-2017-earnings-on-track-to-sustain-flow-of-innovation"
+                               target="_blank"
+                               title="Please note: If you click this link, you will leave the myLilly site.">
                                 <img src="images/2017Q1Earnings.png" alt="2017Q1Earnings">
-                                    <div class="carousel-caption d-none d-md-block" style="background: grey, .5">
-                                        <p>Q1 2017 Earnings Point to Sustained Flow of Innovation</p>
-                                    </div>
+                                <div class="carousel-caption" style="background: grey; opacity: 0.5;">
+                                    <p>Q1 2017 Earnings Point to Sustained Flow of Innovation</p>
+                                </div>
                             </a>
                         </div>
-
                         <div class="item">
-                            <a href="https://investor.lilly.com/releasedetail.cfm?ReleaseID=1008267" target="_blank" title="Please note: If you click this link, you will leave the myLilly site.">
+                            <a href="https://investor.lilly.com/releasedetail.cfm?ReleaseID=1008267" target="_blank"
+                               title="Please note: If you click this link, you will leave the myLilly site.">
                                 <img src="images/Lilly-CoLucid-Press-Release.jpg" alt="CoLucidPress">
-                                    <div class="carousel-caption">
-                                        <p>Lilly and CoLucis Pharmaceuticals Announce Agreement - Lilly to Acquire CoLucid</p>
-                                    </div>
+                                <div class="carousel-caption" style="background: grey; opacity: 0.5;">
+                                    <p>Lilly and CoLucis Pharmaceuticals Announce Agreement - Lilly to Acquire
+                                        CoLucid</p>
+                                </div>
                             </a>
                         </div>
 
                         <div class="item active">
-                            <a href="http://lilly.mediaroom.com/index.php?s=9042&amp;item=137595" target="_blank" title="Please note: If you click this link, you will leave the myLilly site.">
+                            <a href="http://lilly.mediaroom.com/index.php?s=9042&amp;item=137595" target="_blank"
+                               title="Please note: If you click this link, you will leave the myLilly site.">
                                 <img src="images/Newsroom-Lartruvo.jpg" alt="LartruvoNews">
-                                    <div class="carousel-caption">
+                                    <div class="carousel-caption" width = "350" style="background: grey; opacity: 0.5;">
                                         <p>FDA Approves LARTRUVO&trade;(Olaratumab) in Combination With Doxorubicin</p>
                                     </div>
                             </a>
                         </div>
 
                         <div class="item">
-                            <a href="https://investor.lilly.com/releasedetail.cfm?ReleaseID=1006114" target="_blank" title="Please note: If you click this link, you will leave the myLilly site.">
+                            <a href="https://investor.lilly.com/releasedetail.cfm?ReleaseID=1006114" target="_blank"
+                               title="Please note: If you click this link, you will leave the myLilly site.">
                                 <img src="images/Elanco_Companion_News.png" alt="Elanco">
-                                <div class="carousel-caption">
+                                <div class="carousel-caption" style="background: grey; opacity: 0.5;">
                                     <p>Elanco Acquires a Boerhinger Ingelheim Vetmedica U.S. Vaccines Portfolio</p>
                                 
                                 </div>
@@ -209,7 +214,11 @@
                         </div>
                         <p><a class='helpLink'>myLilly Help</a>  |  Copyright © 2017 Eli Lilly and Company. All rights reserved.
                             <br><br>
-                            While Lilly has made every effort to make the information here as accurate as possible, Lilly’s compensation and benefit programs and other services are detailed in separate official documents. In the event of any inconsistencies between this information and those documents, the terms of those documents will control. The company reserves the right to amend, modify, suspend or terminate its programs and services at any time to the extent permitted by applicable law.
+                            While Lilly has made every effort to make the information here as accurate as possible, Lilly’s
+                            compensation and benefit programs and other services are detailed in separate official documents.
+                            In the event of any inconsistencies between this information and those documents,
+                            the terms of those documents will control. The company reserves the right to amend, modify,
+                            suspend or terminate its programs and services at any time to the extent permitted by applicable law.
                         </p>
                     </div>
             </div>
@@ -222,6 +231,7 @@
     <script>
         function backgroundChange()
         {
+            alert("HEY!");
             var body = document.getElementById('body')[0];
             body.style.backgroundImage = "images/background2.jpg";
             document.body.background = "image/background2.jpg";

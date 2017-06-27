@@ -42,8 +42,8 @@ h1
 
 body
 {
-    background-color: ;
-}ee
+    background-color: ee;
+}
 
 .symbols
 {
@@ -101,4 +101,17 @@ body
 body
 {
     background-image: url("images/background1.jpg")
+}
+
+.carousel-caption
+{
+    width: 48%;
+    transform: translateX(12.5%);
+}
+
+.personalInfo{
+    display: block;
+
+    width: 375px;
+    margin: 50px;
 }
